@@ -30,7 +30,7 @@ print(string_single_quotes)
 print(string_double_quotes)
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/61c091af-7bf7-496e-98d7-5d1039b10e4e)
+![image](https://github.com/user-attachments/assets/3dfb4b8f-8b79-4140-b271-d10138a554d3)
 
 
  
@@ -108,40 +108,47 @@ print(f"Sum is {sum_complex}")
 Thus the python program for  adding two complex numbers has been implemented and executed successfully.
 
 
-Exp.No:1(d)	CONDITIONAL STATEMENTS- CHECKING VOWEL OR NOT
+Exp.No:1(d)	CONDITIONAL STATEMENTS- STUDENT ELIGIBILITY CHECK
 
 ### AIM
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+To write a Python program to check whether the student is qualified for the HR round of ABC Company based on the aggregate percentage from 1st to 7th semester using nested if statements.
 ### ALGORITHM
-Step 1:	 Begin the program.
+Step 1: Start the program.
 
-Step 2:	 Take a character input from the user
+Step 2: Take the aggregate percentage as input from the user.
 
-Step 3:	 Convert the character to lowercase
+Step 3: Check if the percentage is greater than or equal to 60.
 
-Step 4:	 Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
+Step 4: If it is, then check if it is also greater than or equal to 75.
 
-Step 5:	 If it is a vowel, display "The given character is a vowel"
+Step 5: If yes, display “You are qualified for HR round of ABC Company”.
 
-Step 6:	 Otherwise, display "The given character is NOT a vowel"
+Step 6: If it is between 60 and 74.99, display “Please attend the Aptitude and Technical round of ABC Company”.
 
-Step 7:	 Terminate the program.
+Step 7: If it is below 60, display “You are not eligible for ABC Company”.
+
+Step 8: End the program.
 
 ### PROGRAM
-```char = input("Enter a character: ")
-char_lower = char.lower()
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+```a = float(input("Enter your aggregate percentage: "))
+a = float(input("Enter your aggregate percentage: "))
+if a >= 60:
+    if a >= 75:
+        print("You are qualified for HR round of ABC Company")
+    else:
+        print("Please attend the Aptitude and Technical round of ABC Company")
 else:
-    print("The given character is NOT a vowel")
+    print("You are not eligible for ABC Company")
+
 ```
 ### OUTPUT 
-![image](https://github.com/user-attachments/assets/c8b79e3c-6d44-4da2-b72a-461b3e03cfee)
+![image](https://github.com/user-attachments/assets/def13765-5312-49a1-b268-3352260fcc4d)
+
+
 
 
 ### RESULT
-Thus the python program to check whether the given character is a vowel or not using if..else statement  has been implemented and executed successfully.
-
+Thus, the Python program to check the student’s eligibility for the HR round of ABC Company using nested if statements has been implemented and executed successfully.
 
 
 
