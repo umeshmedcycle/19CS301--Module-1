@@ -33,9 +33,21 @@ print(string_double_quotes)
 ![image](https://github.com/user-attachments/assets/3dfb4b8f-8b79-4140-b271-d10138a554d3)
 
 
- 
+
+
+
+
 ### RESULT
 Thus the python program for printing multiline strings has been implemented and executed successfully.
+
+
+
+
+
+
+
+
+
 
 Exp.No:1(b)	DATA TYPES-PYTHON PROGRAM TO PRINTING INTEGER LITERALS
 
@@ -65,6 +77,14 @@ print(num3)
 
 ### RESULT
 Thus the python program for printing the Integer Literals has been implemented and executed successfully.
+
+
+
+
+
+
+
+
 
 
 
@@ -104,8 +124,24 @@ print(f"Sum is {sum_complex}")
 
  ![image](https://github.com/user-attachments/assets/a1c12175-0dee-4aa1-885f-9e7dc870f2dd)
 
+
+
+
+
+
+
 ### RESULT
 Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+
+
+
+
+
+
+
+
+
+
 
 
 Exp.No:1(d)	CONDITIONAL STATEMENTS- STUDENT ELIGIBILITY CHECK
@@ -149,6 +185,29 @@ else:
 
 ### RESULT
 Thus, the Python program to check the student’s eligibility for the HR round of ABC Company using nested if statements has been implemented and executed successfully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
